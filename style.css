@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+body h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.student-description{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px; 
+   
+}
+.container .left-side{
+    /* border: 1px solid black; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.left-side form{
+    /* border: 1px solid black; */
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+}
+.left-side form label span{
+    color: red;
+}
+.left-side form label{
+    font-size: 18px;
+    font-weight: 800;
+   
+}
+.left-side form input{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 10px;
+}
+.left-side form input[type='submit']{
+    background-color:rgb(145, 88, 198);
+    padding: 10px auto;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.container .right-side{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 533px;
+}
+.container .right-side table {
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.container .right-side table thead tr th{
+    /* border: 1px solid black; */
+   width: 200px;
+}
+.container .right-side table tbody td{
+    text-align: center;
+    border: 1px solid black;
+   padding: 10px;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+table tr:nth-child(even) {
+  background-color: #8caacf;
+}
+
+table tr:hover {
+  background-color: #ddd;
+ 
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0468aa;
+  color: white;
+  text-align: center;
+}
+#update{
+    background-color:mediumspringgreen;
+    padding: 10px auto;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}

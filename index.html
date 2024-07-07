@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1>Student Registration</h1>
+    <p class="student-description">
+      In student registration new students can add and you can edit the existing
+      students also you can delete the students.students have their own student
+      Id, name,class and rollno.
+    </p>
+    <div class="container">
+      <div class="left-side">
+        <form>
+          <label for="student-name">Student Name:<span>*</span></label
+          ><br />
+          <input
+            type="text"
+            id="student-name"
+            placeholder="Enter Student Name"
+          /><br />
+          <label for="student-id">Student Id:<span>*</span></label
+          ><br />
+          <input
+            type="number"
+            id="student-id"
+            placeholder="Enter student Id"
+          /><br />
+          <label for="email">Email:<span>*</span></label
+          ><br />
+          <input type="email" id="email" placeholder="Enter Email" /><br />
+          <label for="contact-no">Contact No:<span>*</span></label
+          ><br />
+          <input
+            type="number"
+            id="contact-no"
+            placeholder="Enter Contact No"
+          /><br />
+          <!-- <button class="btn">Add</button> -->
+          <input type="submit" id="submit" />
+        </form>
+      </div>
+      <div class="right-side">
+        <table>
+          <!--here table head is created-->
+          <thead>
+            <!--here table row is created-->
+            <tr>
+              <th>Name</th>
+              <th>Id</th>
+              <th>Email</th>
+              <th>Contact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!--here table body is created-->
+            <!--table data will be inserted here-->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
